@@ -48,4 +48,4 @@ I have booked more than 20 slots(for friends and family) with the following appr
 
 # Help Needed
 Currently the JS code is written by me. I also copied the code from different JS snippets. There is a need of refactoring needed by some good JS developer(I don't know JS!! I am a python dev). Also, I have opened some issues(enhancements) in the github repo on which work can be done. 
-> If you are passionate about open source contribution then please free to contribute! I will include your name in the list of contributors. The code can be found [here]
+> If you are passionate about open source contribution then please free to contribute! I will include your name in the list of contributors. The code can be found [here](https://github.com/dollardhingra/cowinquick)
