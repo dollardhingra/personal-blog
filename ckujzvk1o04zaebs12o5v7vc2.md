@@ -1,5 +1,15 @@
 ## Code Quality Tools in Python
 
+---
+ title: Python Code Quality Tools 
+ tags: [python, code-quality]
+ style: fill
+ color: light
+ comments: true
+ categories: computer-science
+ excerpt: An introduction to some code quality tools in python like linters, formatters & style guides
+---
+
 ## What is code quality?
 Before we talk about code quality tools, let's see what code quality is. We can agree that code is of high quality if
 
@@ -14,16 +24,13 @@ crashes. Certainly, there is some issue with the code that has not been tested p
 
 
 ### It is easy to read, maintain, and extend
-Finally, let's consider that a code does what is supposed to do, and it does not contain any defects or problems. But,
-the code is not easy to read, maintain and extend. 
-
 Robert C. Martin in his book [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/) says:
 
 >Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as
 part of the effort to write new code. Because this ratio is so high, we want the reading of the code to be easy, 
 even if it makes the writing harder.
 
-Therefore, code readability is a very important factor in code quality.
+Therefore, code readability is a very important factor in code quality. A code which is readable makes it easier to maintain and extend.
 
 
 ## Style guide: following the conventions
@@ -31,7 +38,7 @@ Therefore, code readability is a very important factor in code quality.
 > Great codebases look like they were written by an individual, 
 when they were worked on by a team.
 
-Consistency code is easier to read & therefore maintain by a team. 
+Consistent code is easier to read & therefore maintain by a team. 
 **A style guide serves the purpose of defining a consistent way to write your code.** 
 The style guide contains conventions to be followed for writing a code. 
 [PEP8](https://pep8.org/) is the official style guide for Python that is recommended to use for writing any python code.
@@ -278,6 +285,3 @@ Finally, You can use these code quality tools using:
 - IDE/editors - when you are writing your code
 - pre-commit hooks - on committing the code using 
 - continuous integration - while running the tests
-
-
-
