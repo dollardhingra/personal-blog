@@ -221,12 +221,12 @@ l = ['s', 'p', 'a', 'm']
 
 # ok for small no. of elements
 def lookup_list(l):
-return 's' in l # O(1)
+return 's' in l # O(n)
 
 
 # better for large no. of elements
 def lookup_set(s):
-return 's' in s # O(n)
+return 's' in s # O(1)
 ```
 Sets are implemented using hash in python, which makes searching of element faster(O(1)) as compared to searching in a 
 list(O(n)). 
